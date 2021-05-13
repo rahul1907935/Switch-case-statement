@@ -1,0 +1,46 @@
+#include<stdio.h>
+int main()
+{
+int food;
+printf ("1= Burger\n 2=French Fries\n 3= Pizza\n 4= Sandwich\n 5= Pasta\n");
+printf ("Enter your order please\n Enter your choice 1,2,3,4,5\n");
+scanf ("%d", &food);
+switch (food)
+{
+case 1:
+{
+printf ("Food item- Burger\n");
+printf ("price- Rs 129\n");
+break;
+}
+case 2:
+{
+printf ("Food item- French Fries\n");
+printf ("price- Rs 99\n");
+break;
+}
+case 3:
+{
+printf ("Food item- Pizza\n");
+printf ("price- Rs 239\n");
+break;
+}
+case 4:
+{
+printf ("Food item- Sandwich\n");
+printf ("price- Rs 149\n");
+break;
+}
+case 5:
+{
+printf ("Food item- Pasta\n");
+printf ("price- Rs 179\n");
+break;
+}
+default:
+{
+printf ("Invalid Choice");
+}
+printf ("\n Have a nice day");
+getch();
+}}
